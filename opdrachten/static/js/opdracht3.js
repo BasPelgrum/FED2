@@ -3,18 +3,6 @@ Maak met een Constructor object een ‘Persoon’-object aan. Voeg de property �
 En maak een nieuwe instantie aan van dit object waarbij je de naam ‘Bob’ meegeeft als parameter van het object.
 */
 
-
-/* 3.2: Prototype
-Voeg de methods ‘walk’ en ‘eat’ toe aan het ‘Persoon’-object met de prototype function van het object. 
-*/
-
-/* 3.3: Object Literal
-Maak nu hetzelfde object, met dezelfde properties en methods aan met een object literal
-*/
-
-
-//3.1
-
 function Personage(name) {
 	this.name = name;
 	this.speak = function() {
@@ -25,7 +13,13 @@ function Personage(name) {
 persoon = new Personage ("Bob")
 persoon.speak() //alerts hallo ik ben (ingevoerde naam)
 
-//3.2
+
+
+
+
+/* 3.2: Prototype
+Voeg de methods ‘walk’ en ‘eat’ toe aan het ‘Persoon’-object met de prototype function van het object. 
+*/
 
 function Personage(name) {
 	this.name = name;
@@ -53,3 +47,12 @@ persoon = new Personage ("Gert")
 persoon.walk();
 
 
+/* 3.3: Object Literal
+Maak nu hetzelfde object, met dezelfde properties en methods aan met een object literal
+*/
+
+function Bob() {
+	var Bob = {
+		eat
+	}
+}
