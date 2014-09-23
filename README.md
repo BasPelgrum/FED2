@@ -13,6 +13,7 @@ Bas Pelgrum // 500628858 // V2-02
 
 
 03/09/2014
+
 * Don't use global variables/objects
 * Use short clear (meaningful) names
 * Constructor function start with capital
@@ -20,6 +21,7 @@ Bas Pelgrum // 500628858 // V2-02
 * camelCase the rest
 
 23/09/2014
+
 *Self invoking function: 
 
 	(function() {
