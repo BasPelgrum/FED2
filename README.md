@@ -33,7 +33,7 @@ Bas Pelgrum // 500628858 // V2-02
 	var clown = {
 		name: 'pipo',
 		shoeSize: 60,
-
+	};	
 
 		//method
 		joke: function() {
@@ -46,7 +46,7 @@ Bas Pelgrum // 500628858 // V2-02
 		laugh: function () {
 			console.log('whoehahahah');
 		}
-	};
+
 
 * Constructor 
 	   
