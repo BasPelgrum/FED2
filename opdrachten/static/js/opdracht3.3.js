@@ -19,9 +19,9 @@ function laatBasDingenDoen() {
 
 	}
 
-		Bas.speak();
-		Bas.walk();
-		Bas.eat();
+	Bas.speak();
+	Bas.walk();
+	Bas.eat();
 }
 
 laatBasDingenDoen();
