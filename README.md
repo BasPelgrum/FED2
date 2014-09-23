@@ -31,7 +31,6 @@ Bas Pelgrum // 500628858 // V2-02
 * Object Literal	 
 	
 	var clown = {
-		//properties
 		name: 'pipo',
 		shoeSize: 60,
 
