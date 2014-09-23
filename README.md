@@ -30,8 +30,8 @@ Bas Pelgrum // 500628858 // V2-02
 	
 * Object Literal	 
 	
+
 	var circus.clown = {
-		// Properties
 		name: 'pipo',
 		shoeSize: 60,
 
@@ -48,7 +48,7 @@ Bas Pelgrum // 500628858 // V2-02
 			console.log('whoehahahah');
 		}
 	};
-	
+
 * Constructor 
 	   
 	    var myObjConstructor = function () {
