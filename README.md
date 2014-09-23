@@ -22,11 +22,11 @@ Bas Pelgrum // 500628858 // V2-02
 
 23/09/2014
 
-*Self invoking function: 
+* SIV: Self Invoking Function: 
 
 	(function() {
 		//code	
-	}) ();
+	})();
 
 * Place external scripts at the bottom of the page
 * Use Data_bind (custom HTML5) instead of classes (classes are meant for css)
