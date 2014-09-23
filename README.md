@@ -24,22 +24,22 @@ Bas Pelgrum // 500628858 // V2-02
 
 * SIV: Self Invoking Function: 
 
-	(function() {
-		//code	
+	(function() {\n
+		//code\n	
 	})();
 	
-* Object Literal	 
-	var myObjLiteral = {
-	  	defaults: { name: 'Todd' },
-	  	someMethod: function () {
-	    	console.log(this.defaults);
-	  	}
+* Object Literal\n	 
+	var myObjLiteral = { \n
+	  	defaults: { name: 'Bas' },\n
+	  	someMethod: function () {\n
+	    	console.log(this.defaults);\n
+	  	}\n
 	};
-* Constructor 
-	    var myObjConstructor = function () {
-        	// code
-        var name = 'Bas';
-        var age = 19;	
+* Constructor \n
+	    var myObjConstructor = function () {\n
+        	// code\n
+        var name = 'Bas';\n
+        var age = 19;	\n
 * Place external scripts at the bottom of the page
 * Use Data_bind (custom HTML5) instead of classes (classes are meant for css)
 * Namespace: The practice of namespacing is usually to create an object literal encapsulating your own functions and variables, so as not to collide with those created by other libraries
