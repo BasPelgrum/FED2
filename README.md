@@ -30,15 +30,25 @@ Bas Pelgrum // 500628858 // V2-02
 	
 * Object Literal	 
 	
-	var myObjLiteral = {
-	  	defaults: { 
-	  		name: 'Bas' 
-	  	},
-	  	someMethod: function () {
-	    	console.log(this.defaults);
-	  	}
-	};
+	var circus.clown = {
+		// Properties
+		name: 'pipo',
+		shoeSize: 60,
 
+
+		//method
+		joke: function() {
+			console.log('some nice joke');
+			
+			//This  points to clown object (the OBJECT it is in)
+			this.laugh();
+		},
+
+		laugh: function () {
+			console.log('whoehahahah');
+		}
+	};
+	
 * Constructor 
 	   
 	    var myObjConstructor = function () {
