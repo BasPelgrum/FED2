@@ -30,8 +30,8 @@ Bas Pelgrum // 500628858 // V2-02
 	
 * Object Literal	 
 	
-	//object literal
-	var circus.clown = {
+	var clown = {
+		//properties
 		name: 'pipo',
 		shoeSize: 60,
 
