@@ -32,7 +32,7 @@ Bas Pelgrum // 500628858 // V2-02
 	
 	var clown = {
 		name: 'pipo',
-		shoeSize: 60,
+		shoeSize: 60;
 
 		//method
 		joke: function() {
@@ -52,7 +52,8 @@ Bas Pelgrum // 500628858 // V2-02
 	    var myObjConstructor = function () {
         	// code
         var name = 'Bas';
-        var age = 19;
+        var age = 24;
+    };
 
 * Place external scripts at the bottom of the page
 * Use Data_bind (custom HTML5) instead of classes (classes are meant for css)
