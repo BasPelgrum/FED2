@@ -24,19 +24,21 @@ Bas Pelgrum // 500628858 // V2-02
 
 * SIV: Self Invoking Function: 
 
-	(function() {
+	(function(){
 		//code	
 	})();
 	
 * Object Literal	 
 	
 	var myObjLiteral = {
-	  	defaults: { name: 'Baas' },
+	  	defaults: { 
+	  		name: 'Bas' 
+	  	},
 	  	someMethod: function () {
 	    	console.log(this.defaults);
 	  	}
 	};
-	
+
 * Constructor 
 	   
 	    var myObjConstructor = function () {
