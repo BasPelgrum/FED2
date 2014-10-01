@@ -2,6 +2,7 @@ section {
 	display: none;
 }
 
-section.active{
+section.active {
 	display: block;
 }
+
