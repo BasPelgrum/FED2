@@ -60,6 +60,7 @@ Bas Pelgrum // 500628858 // V2-02
 * Namespace: The practice of namespacing is usually to create an object literal encapsulating your own functions and variables, so as not to collide with those created by other libraries
 
 
+
 ## CSS
 
 ## HTML

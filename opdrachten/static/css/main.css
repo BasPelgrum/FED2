@@ -1,40 +1,18 @@
-@import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
-/*!
- * Bootswatch v3.1.1+1
- * Homepage: http://bootswatch.com
- * Copyright 2012-2014 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
-*/
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+.about{
+  display: none;
 }
-body {
-  margin: 0;
+.movies{
+  display: none;
 }
-
-body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.1;
-  line-height: 1.42857143;
-  color: #2c3e50;
-  background-color: #ffffff;
+section.active{
+  display: block;
 }
-
-a {
-	text-decoration: none;
-	color: #18BC9C;
+.movies article{
+  float: left;
+  width: 20%;
+  margin-left: 1em;
 }
-
-h4 {
-	margin-left: 10px;
-
-}
-
-section, header {
-	margin-left: 10px;
+img{
+  width: 60%;
+  height: 60%;
 }
